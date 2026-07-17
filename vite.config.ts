@@ -10,7 +10,11 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // 🔴 FIX: @ alias सेट किया ताकि इमेजेज़ लोड हो सकें
+      '@': path.resolve(__dirname, './src'),
     },
   },
-});
+
+  build: {
+    outDir: 'dist/client'
+  }
+}); 
