@@ -439,7 +439,7 @@ export default function Index() {
             <div className="lg:col-span-2 space-y-4" data-reveal>
               {[
                 { i: "📍", t: "Visit", d: "Malviya Nagar, Jaipur, Rajasthan 302017" },
-                { i: "📞", t: "Call", d: "+91 98765 43210", href: "tel:+91xxxxxxxx" },
+                { i: "📞", t: "Call", d: "+91 01414012111", href: "tel:01414012111" },
                 { i: "💬", t: "WhatsApp", d: "Chat with us instantly", href: "https://wa.me/xxxxxx" },
                 { i: "🕐", t: "Open", d: "Every day · 11:00 AM – 11:00 PM" },
               ].map((c) => (
@@ -451,7 +451,7 @@ export default function Index() {
                   </div>
                 </a>
               ))}
-              <a href="tel:+919876dfdf10" className="block text-center rounded-2xl bg-fire text-cream px-6 py-5 font-display text-xl font-bold shadow-warm hover:scale-[1.02] transition-transform">
+              <a href="https://www.swiggy.com/restaurants/jaipur/malviya-nagar/pizza-world-787530/dineout" className="block text-center rounded-2xl bg-fire text-cream px-6 py-5 font-display text-xl font-bold shadow-warm hover:scale-[1.02] transition-transform">
                 Reserve Table Now →
               </a>
             </div>
